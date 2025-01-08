@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Timetable</title>
+</head>
+<body>
+    <h1>Conference Timetable</h1>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Room 1</th>
+                <th>Room 2</th>
+                <th>Room 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:00 AM - 10:00 AM</td>
+                <td bgcolor="cyan" colspan="3" title="Keynote Session by Dr. Smith">Keynote Session</td>
+            </tr>
+            <tr>
+                <td>10:15 AM - 11:15 AM</td>
+                <td bgcolor="red" title="Workshop on AI by Prof. Johnson">AI Workshop</td>
+                <td bgcolor="yellow" title="Panel discussion on Cybersecurity">Cybersecurity Panel</td>
+                <td bgcolor="red" rowspan="2" title="Hands-on session on Blockchain by Ms. Brown">Blockchain Workshop</td>
+            </tr>
+            <tr>
+                <td>11:30 AM - 12:30 PM</td>
+                <td title="Data Science session by Mr. Lee">Data Science Session</td>
+                <td bgcolor="green" title="Networking session by industry leaders">Networking Session</td>
+            </tr>
+            <tr>
+                <td>1:30 PM - 2:30 PM</td>
+                <td colspan="2" title="Lunch and Networking">Lunch Break</td>
+                <td title="Deep Dive into Cloud Computing by Dr. White">Cloud Computing</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Legend</h2>
+    <ul>
+        <li><strong>Keynote:</strong> Important sessions for all attendees.</li>
+        <li><strong>Workshop:</strong> Hands-on sessions for in-depth learning.</li>
+        <li><strong>Panel:</strong> Discussions with multiple speakers.</li>
+        <li><strong>Networking:</strong> Opportunities to connect with peers.</li>
+    </ul>
+</body>
+</html>
